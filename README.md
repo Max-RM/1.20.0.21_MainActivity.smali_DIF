@@ -10,4 +10,10 @@ Differences between files. It is very important, because it allows you to create
 
 Сначала возьмите apk MCBE (предполагается, что он у вас уже есть) декомпилируйте его используя Apktool M https://4pda.to/forum/index.php?showtopic=1002506
 Перейдите по пути /smali/com/mojang/minecraftpe находясь в папке декомпилированного apk, найдите файл  MainActivity.smali и внесите в него изменения типо этих: https://github.com/Max-RM/1.20.0.21_MainActivity.smali_DIF/commit/97d794adef66fb586103744ae0a33e090c136b74
-То есть просто выполните изменения на основе показанных по ссылке после чего начните компиляцию в apktool M.
+То есть просто выполните изменения на основе показанных по ссылке.
+Потом в Android.manifest.xml игры внесите такие изменения: https://ibb.co/mHyRWZ3 то есть вставьте строку: 
+
+<uses-permission 
+    	android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+после чего начните компиляцию в apktool M.
