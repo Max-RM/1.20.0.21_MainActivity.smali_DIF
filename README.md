@@ -13,7 +13,7 @@ Differences between files. It is very important, because it allows you to create
 То есть просто выполните изменения на основе показанных по ссылке.
 Потом в Android.manifest.xml игры внесите такие изменения: https://ibb.co/mHyRWZ3 то есть вставьте строку: 
 
-<uses-permission 
-    	android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+``<uses-permission 
+    	android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />``
 
 после чего начните компиляцию в apktool M.
