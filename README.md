@@ -1,6 +1,8 @@
 # 1.20.0.21_MainActivity.smali_DIF
 Differences between files. It is very important, because it allows you to create an MCBE apk with the old way of storing worlds.
 
+Спасибо inotflying (Egornya) за изобретение этого метода.
+
 02.05.2023 я научился создавать MCBE apk которые используют старый путь хранения миров - /storage/emulated/0/games/com.mojang/minecraftWorlds
 Вместо нового /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds
 
