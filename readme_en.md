@@ -1,3 +1,5 @@
+Thanks to @CallMeSoumya2063 for translating manual to English.
+
 # 1.20.0.21_MainActivity.smali_DIF
 Differences between files. It is very important, because it allows you to create an MCBE apk with the old way of storing worlds.
 
@@ -13,4 +15,12 @@ First, take MCBE apk (assuming you already have it) decompile it using Apktool M
 
 android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
 ```
-and then start compiling in apktool M.
+
+(updated 07/21/2024): 
+Be sure to change the target SDK to 28 (Android 9 Pie) and change the minimum SDK to 1 or 23 (Android 1.0 or Android 6 Marshmallow) This can be done by editing the apktool.json file in the lowest lines or after compiling the apk, perform a "Quick edit" and change the SDK to the desired ones. 
+It is advisable not to make the minimum SDK - 1 because it can cause installation errors on Android 15.
+If you do not follow these steps, then in Android 14, the application settings page will not be able to activate the permission for special file access.
+
+then start compiling in apktool M.
+
+After installing the game, activate special file access in the settings, otherwise the game will not work or will not be able to create a new world.
