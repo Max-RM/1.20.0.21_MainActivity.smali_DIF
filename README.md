@@ -2,7 +2,9 @@
 
 English translate: https://github.com/Max-RM/1.20.0.21_MainActivity.smali_DIF/blob/main/readme_en.md
 
-Примерная инструкция, чтобы заставить MCBE хранить миры по старому пути: ``/storage/emulated/0/games/com.mojang/minecraftWorlds``, а не ``.../Android/data/...``
+Примерная инструкция, чтобы заставить MCBE хранить миры по старому пути: ``/storage/emulated/0/games/com.mojang/minecraftWorlds``, 
+а не:
+``.../Android/data/...``
 
 Спасибо inotflying (Egornya) за изобретение этого метода.
 
